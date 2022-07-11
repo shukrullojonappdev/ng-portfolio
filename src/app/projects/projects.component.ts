@@ -5,19 +5,19 @@ const projects = [
   {
     name: 'Simple react navigation',
     img: '',
-    content: 'In this projects I use react, material ui',
+    content: 'In this projects I used react, material ui',
     link: '',
   },
   {
     name: 'Nuxtjs portfolio project',
     img: '',
-    content: '',
+    content: 'Nustjs routing, carousel, navigation',
     link: 'https://shmportfolio.netlify.app',
   },
   {
     name: 'Angular weather app',
     img: '',
-    content: '',
+    content: 'This application shows weather selected place',
     link: 'https://shngweather.netlify.app',
   },
 ];

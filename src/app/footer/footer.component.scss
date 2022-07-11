@@ -1,0 +1,27 @@
+@import "../../theme.scss";
+
+.footer {
+  width: 100%;
+  background: $sc;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .link {
+      margin: 5px 0;
+      font-size: 0.8rem;
+
+      a {
+        color: $hc;
+      }
+    }
+  }
+}
