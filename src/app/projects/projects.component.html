@@ -1,0 +1,13 @@
+<div id="projects" class="projects">
+  <h2>Porjects</h2>
+  <div class="row">
+    <div class="box" *ngFor="let project of projects">
+      <a href="{{ project.link }}" target="_blank" class="hover-icon">
+        <fa-icon [icon]="faEye"></fa-icon>
+      </a>
+      <div class="box-img"></div>
+      <div class="box-title">{{ project.name }}</div>
+      <div class="box-content"></div>
+    </div>
+  </div>
+</div>
