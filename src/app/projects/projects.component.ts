@@ -6,7 +6,7 @@ const projects = [
     name: 'Simple react navigation',
     img: '',
     content: 'In this projects I used react, material ui',
-    link: '',
+    link: 'https://shsdc.netlify.app',
   },
   {
     name: 'Nuxtjs portfolio project',
