@@ -30,6 +30,10 @@ body {
   scrollbar-base-color: $sc;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .disableScroll {
   overflow: hidden;
   transition-duration: 500ms;
