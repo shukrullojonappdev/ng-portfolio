@@ -71,9 +71,9 @@
       img {
         width: 100%;
         position: absolute;
-        animation-name: move;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+        top: 0;
+        object-fit: cover;
+        height: 100%;
       }
     }
 
@@ -90,17 +90,5 @@
       justify-content: center;
       align-items: center;
     }
-  }
-}
-
-@keyframes move {
-  from {
-    top: 0;
-  }
-  50% {
-    top: -100px;
-  }
-  to {
-    top: 0;
   }
 }

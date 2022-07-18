@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: 'Angular weather app',
-    img: '',
+    img: '../../assets/shawa.png',
     link: 'https://shngweather.netlify.app',
   },
 ];
